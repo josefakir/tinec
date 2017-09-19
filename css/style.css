@@ -1,0 +1,101 @@
+#social{
+	width: 100%; height: 41px; background: #ce6b00;
+}
+#menu{font-family: 'Metrophobic', sans-serif;}
+/* font-family: 'Open Sans', sans-serif;
+ */
+ #contmenu{
+	    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+    margin-top: 20px;
+ }
+#contmenu:before {
+    border-top: 1px solid #dbdbdb;
+    content: " ";
+    height: 10px;
+    width: 100%;
+    position: absolute;
+    margin-top: -4px;
+
+}
+#contmenu:after {
+    border-top: 1px solid #dbdbdb;
+    content: " ";
+    height: 10px;
+    width: 100%;
+    position: absolute;
+    margin-bottom:  -4px;
+}
+#contmenu:after {
+    border-bottom: 1px solid #dbdbdb;
+    content: " ";
+    height: 4px;
+    width: 100%;
+    position: absolute;
+}
+#logo{
+	width: 450px;
+	display: block;
+	margin: 0 auto
+}
+#logo img{
+	width: 100%
+}
+#cabecera{ width: 100%;    padding: 20px 0;}
+.buscador{    margin-top: 10px;
+    position: absolute;
+    width: 300px;
+    height: 36px;}
+#menu {
+	list-style: none
+}
+#menu li{
+	float: left;
+	width: 11.11%;
+	text-align: center;
+	    padding: 25px 0;
+}
+#menu li a{
+	color: #000
+}
+#menu li a:hover{
+	color: #ce6b00
+}
+.item{height: 500px; width: 100%}
+.item1{
+	background: url('../img/slider6.jpg') top center no-repeat rgb(0, 107, 235);
+}
+.item2{
+	background: url('../img/slider7.jpg') top center no-repeat rgb(255, 134, 1);
+}
+.item3{
+	background: url('../img/slider8.jpg') top center no-repeat rgb(202, 54, 152);
+}
+.item4{
+	background: url('../img/slider9.jpg') top center no-repeat rgb(0, 169, 176);;
+}
+
+.image-box{
+  width:300px;
+  overflow:hidden;
+}
+.image {
+    width:300px;
+    height:200px;
+    background: url("img/banner-peque-3.jpg");
+    background-position:center;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+} 
+.image:hover {
+  transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -ms-transform: scale(1.5); /* IE 9 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand')"; /* IE8 */
+   filter: progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand'); /* IE6 and 7 */ 
+} 
